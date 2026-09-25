@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "url": "https://github.com",
+      "name": "GitHub",
+      "statusCode": 200,
+      "responseTimeMs": 491,
+      "status": "UP",
+      "timestamp": "2026-09-25T13:19:04.220Z"
+    },
+    {
+      "url": "https://www.google.com",
+      "name": "Google",
+      "statusCode": 200,
+      "responseTimeMs": 222,
+      "status": "UP",
+      "timestamp": "2026-09-25T13:19:04.461Z"
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "name": "Wikipedia",
+      "statusCode": 200,
+      "responseTimeMs": 202,
+      "status": "UP",
+      "timestamp": "2026-09-25T13:19:04.663Z"
+    },
+    {
+      "url": "https://www.cloudflare.com",
+      "name": "Cloudflare",
+      "statusCode": 200,
+      "responseTimeMs": 720,
+      "status": "UP",
+      "timestamp": "2026-09-25T13:19:05.384Z"
+    },
+    {
+      "url": "https://www.mozilla.org",
+      "name": "Mozilla",
+      "statusCode": 200,
+      "responseTimeMs": 129,
+      "status": "UP",
+      "timestamp": "2026-09-25T13:19:05.520Z"
+    }
+  ],
+  "lastUpdated": "2026-09-25T13:19:05.521Z"
+}

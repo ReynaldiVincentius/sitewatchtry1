@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uptime Monitor — Website Status Dashboard</title>
+  <meta name="description" content="Live status, response time, and uptime history for monitored public websites. Data collected automatically by GitHub Actions." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1117'/%3E%3Cpath d='M10 38h10l5-12 8 22 6-16 4 6h11' stroke='%233fb950' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to dashboard</a>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-dot" id="global-dot" aria-hidden="true"></span>
+        <div>
+          <p class="brand-title">Uptime Monitor</p>
+          <p class="brand-sub" id="summary-line">Loading…</p>
+        </div>
+      </div>
+      <div class="topbar-meta">
+        <p class="meta-label">Last checked</p>
+        <p class="meta-value mono" id="last-checked">—</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="main">
+    <section aria-labelledby="status-heading">
+      <div class="section-head">
+        <h1 id="status-heading">Website status</h1>
+        <p class="muted" id="range-line">Response time over recent checks · auto-updated every 30 min by GitHub Actions</p>
+      </div>
+
+      <div class="notice" id="empty-notice" hidden>
+        <strong>No data yet</strong> — check back after the first scheduled run.
+        Trigger the <code>Uptime check</code> workflow manually (Actions → Uptime check → Run workflow) or run
+        <code>node scripts/check-sites.js</code> locally.
+      </div>
+
+      <div class="cards" id="cards" aria-live="polite"></div>
+    </section>
+
+    <section class="chart-section" aria-labelledby="chart-heading">
+      <div class="section-head">
+        <h2 id="chart-heading">Response time trend</h2>
+        <label class="range-picker">
+          Show last
+          <select id="range-select" aria-label="Number of checks to display">
+            <option value="20" selected>20 checks</option>
+            <option value="50">50 checks</option>
+            <option value="100">100 checks</option>
+          </select>
+        </label>
+      </div>
+      <div class="chart-wrap">
+        <canvas id="rt-chart" height="120" aria-label="Line chart of response time per site" role="img"></canvas>
+      </div>
+    </section>
+
+    <section aria-labelledby="history-heading">
+      <h2 id="history-heading">Recent checks</h2>
+      <div class="table-wrap">
+        <table class="checks-table">
+          <thead>
+            <tr>
+              <th scope="col">Time</th>
+              <th scope="col">Site</th>
+              <th scope="col">Status</th>
+              <th scope="col">HTTP</th>
+              <th scope="col">Response</th>
+            </tr>
+          </thead>
+          <tbody id="checks-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Uptime Monitor · data from <code>data/status.json</code>, updated by GitHub Actions</p>
+      <p class="muted">Portfolio project by Reynaldi Vincentius</p>
+    </div>
+  </footer>
+</body>
+</html>

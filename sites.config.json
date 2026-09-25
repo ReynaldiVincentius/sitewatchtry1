@@ -1,0 +1,9 @@
+{
+  "sites": [
+    { "name": "GitHub", "url": "https://github.com" },
+    { "name": "Google", "url": "https://www.google.com" },
+    { "name": "Wikipedia", "url": "https://www.wikipedia.org" },
+    { "name": "Cloudflare", "url": "https://www.cloudflare.com" },
+    { "name": "Mozilla", "url": "https://www.mozilla.org" }
+  ]
+}
