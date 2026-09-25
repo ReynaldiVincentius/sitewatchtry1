@@ -4,10 +4,7 @@ An automated website uptime and performance monitor built with vanilla JS and Gi
 
 ## Live Demo
 
-<!-- TODO: paste your GitHub Pages URL here after deploying, e.g. -->
-<!-- https://reynaldivincentius.github.io/uptime-monitor/ -->
-
-Live demo: `https://<YOUR-USERNAME>.github.io/<REPO>/` *(replace with your real Pages URL)*
+https://reynaldivincentius.github.io/sitewatchtry1/
 
 ## How It Works
 
