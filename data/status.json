@@ -679,7 +679,47 @@
       "responseTimeMs": 120,
       "status": "UP",
       "timestamp": "2026-09-28T01:08:28.324Z"
+    },
+    {
+      "url": "https://github.com",
+      "name": "GitHub",
+      "statusCode": 200,
+      "responseTimeMs": 63,
+      "status": "UP",
+      "timestamp": "2026-09-28T07:28:12.629Z"
+    },
+    {
+      "url": "https://www.google.com",
+      "name": "Google",
+      "statusCode": 200,
+      "responseTimeMs": 47,
+      "status": "UP",
+      "timestamp": "2026-09-28T07:28:12.677Z"
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "name": "Wikipedia",
+      "statusCode": 200,
+      "responseTimeMs": 20,
+      "status": "UP",
+      "timestamp": "2026-09-28T07:28:12.697Z"
+    },
+    {
+      "url": "https://www.cloudflare.com",
+      "name": "Cloudflare",
+      "statusCode": 200,
+      "responseTimeMs": 50,
+      "status": "UP",
+      "timestamp": "2026-09-28T07:28:12.748Z"
+    },
+    {
+      "url": "https://www.mozilla.org",
+      "name": "Mozilla",
+      "statusCode": 200,
+      "responseTimeMs": 19,
+      "status": "UP",
+      "timestamp": "2026-09-28T07:28:12.767Z"
     }
   ],
-  "lastUpdated": "2026-09-28T01:08:28.324Z"
+  "lastUpdated": "2026-09-28T07:28:12.768Z"
 }
