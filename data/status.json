@@ -3079,7 +3079,48 @@
       "responseTimeMs": 158,
       "status": "UP",
       "timestamp": "2026-10-11T15:54:15.399Z"
+    },
+    {
+      "url": "https://github.com",
+      "name": "GitHub",
+      "statusCode": 200,
+      "responseTimeMs": 325,
+      "status": "UP",
+      "timestamp": "2026-10-11T20:06:09.697Z"
+    },
+    {
+      "url": "https://www.google.com",
+      "name": "Google",
+      "statusCode": 200,
+      "responseTimeMs": 151,
+      "status": "UP",
+      "timestamp": "2026-10-11T20:06:09.850Z"
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "name": "Wikipedia",
+      "statusCode": 200,
+      "responseTimeMs": 113,
+      "status": "UP",
+      "timestamp": "2026-10-11T20:06:09.964Z"
+    },
+    {
+      "url": "https://www.cloudflare.com",
+      "name": "Cloudflare",
+      "statusCode": null,
+      "responseTimeMs": 129,
+      "status": "DOWN",
+      "error": "Parse Error: Header overflow",
+      "timestamp": "2026-10-11T20:06:10.094Z"
+    },
+    {
+      "url": "https://www.mozilla.org",
+      "name": "Mozilla",
+      "statusCode": 200,
+      "responseTimeMs": 74,
+      "status": "UP",
+      "timestamp": "2026-10-11T20:06:10.168Z"
     }
   ],
-  "lastUpdated": "2026-10-11T15:54:15.400Z"
+  "lastUpdated": "2026-10-11T20:06:10.169Z"
 }
