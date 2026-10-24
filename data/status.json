@@ -4,46 +4,6 @@
       "url": "https://github.com",
       "name": "GitHub",
       "statusCode": 200,
-      "responseTimeMs": 310,
-      "status": "UP",
-      "timestamp": "2026-10-04T22:55:49.746Z"
-    },
-    {
-      "url": "https://www.google.com",
-      "name": "Google",
-      "statusCode": 200,
-      "responseTimeMs": 134,
-      "status": "UP",
-      "timestamp": "2026-10-04T22:55:49.882Z"
-    },
-    {
-      "url": "https://www.wikipedia.org",
-      "name": "Wikipedia",
-      "statusCode": 200,
-      "responseTimeMs": 116,
-      "status": "UP",
-      "timestamp": "2026-10-04T22:55:49.999Z"
-    },
-    {
-      "url": "https://www.cloudflare.com",
-      "name": "Cloudflare",
-      "statusCode": 200,
-      "responseTimeMs": 148,
-      "status": "UP",
-      "timestamp": "2026-10-04T22:55:50.148Z"
-    },
-    {
-      "url": "https://www.mozilla.org",
-      "name": "Mozilla",
-      "statusCode": 200,
-      "responseTimeMs": 102,
-      "status": "UP",
-      "timestamp": "2026-10-04T22:55:50.250Z"
-    },
-    {
-      "url": "https://github.com",
-      "name": "GitHub",
-      "statusCode": 200,
       "responseTimeMs": 244,
       "status": "UP",
       "timestamp": "2026-10-05T01:47:25.603Z"
@@ -4001,7 +3961,47 @@
       "responseTimeMs": 21,
       "status": "UP",
       "timestamp": "2026-10-24T13:31:41.197Z"
+    },
+    {
+      "url": "https://github.com",
+      "name": "GitHub",
+      "statusCode": 200,
+      "responseTimeMs": 511,
+      "status": "UP",
+      "timestamp": "2026-10-24T17:17:36.107Z"
+    },
+    {
+      "url": "https://www.google.com",
+      "name": "Google",
+      "statusCode": 200,
+      "responseTimeMs": 238,
+      "status": "UP",
+      "timestamp": "2026-10-24T17:17:36.346Z"
+    },
+    {
+      "url": "https://www.wikipedia.org",
+      "name": "Wikipedia",
+      "statusCode": 200,
+      "responseTimeMs": 250,
+      "status": "UP",
+      "timestamp": "2026-10-24T17:17:36.596Z"
+    },
+    {
+      "url": "https://www.cloudflare.com",
+      "name": "Cloudflare",
+      "statusCode": 200,
+      "responseTimeMs": 466,
+      "status": "UP",
+      "timestamp": "2026-10-24T17:17:37.063Z"
+    },
+    {
+      "url": "https://www.mozilla.org",
+      "name": "Mozilla",
+      "statusCode": 200,
+      "responseTimeMs": 192,
+      "status": "UP",
+      "timestamp": "2026-10-24T17:17:37.255Z"
     }
   ],
-  "lastUpdated": "2026-10-24T13:31:41.199Z"
+  "lastUpdated": "2026-10-24T17:17:37.257Z"
 }
